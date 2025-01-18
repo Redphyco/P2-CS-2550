@@ -7,8 +7,12 @@ body{
 	in the total width of the element.  This is preferred going forward */
 	box-sizing: border-box;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	background-image: url("Circuit-image(google).jpg");
-	background-repeat: repeat-y;
+	background-image: "img/me.jpg";
+	background-color: #cccccc;
+}
+.poem{
+	text-indent: 5px;
+	text-align:center;
 }
 .res-section {
 	color:black;
@@ -19,5 +23,13 @@ table, th, td {
 	border: 1px solid black;
 	border-spacing: 3px;
 	padding: 3px;
-	text-align: left;
+	text-align:center;
+	width:20cm;
+  }
+  a {
+	text-decoration: none;
+  }
+
+  a:hover{
+	text-decoration: underline;
   }

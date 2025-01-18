@@ -38,7 +38,7 @@ TRICK:  select all text in this file, 'Ctrl-A', then use 'Alt-Shift-f' to format
 </head>
 
 <body>
-
+	
 	<main>
 		<!--  I normally put header and footer outside of 'main', but in this
 		case when I'm centering it all, placing inside 'main' makes sense
@@ -73,9 +73,9 @@ TRICK:  select all text in this file, 'Ctrl-A', then use 'Alt-Shift-f' to format
 		</section>
 		<section class='res-section'>
 			<h2>A Haiku I wrote</h2>
-			<p>Deep code lines converge<br>
+			<div class="poem"><p>Deep code lines converge<br>
 				In silent electric minds<br>
-				New wonders now rise</p>
+				New wonders now rise</p></div>
 		</section>
 		<section class='res-section'>
 			<h2>My personal interests</h2>
@@ -96,11 +96,11 @@ TRICK:  select all text in this file, 'Ctrl-A', then use 'Alt-Shift-f' to format
 				</tr>
 				<tr>
 					<td>10:00am</td>
-					<td rowspan="13">Work</td>
+					<td rowspan="13" style="background-color: maroon;">Work</td>
 					<td></td>
 					<td></td>
 					<td></td>
-					<td rowspan="13">Work</td>	
+					<td rowspan="13" style="background-color: maroon;">Work</td>	
 				</tr>
 				<tr>
 					<td>10:30am</td>
@@ -116,9 +116,9 @@ TRICK:  select all text in this file, 'Ctrl-A', then use 'Alt-Shift-f' to format
 				</tr>
 				<tr>
 					<td>11:30am</td>
-					<td rowspan="3">CS 2420</td>
+					<td rowspan="3" style="background-color: forestgreen;">CS 2420</td>
 					<td></td>
-					<td rowspan="3">CS 2420</td>
+					<td rowspan="3" style="background-color: forestgreen;">CS 2420</td>
 				</tr>
 				<tr>
 					<td>12:00pm</td>
@@ -148,9 +148,9 @@ TRICK:  select all text in this file, 'Ctrl-A', then use 'Alt-Shift-f' to format
 				</tr>
 				<tr>
 					<td>2:30pm</td>
-					<td rowspan="3">CS2550</td>
+					<td rowspan="3" style="background-color:orchid;">CS2550</td>
 					<td></td>
-					<td rowspan="3">CS2550</td>
+					<td rowspan="3" style="background-color:orchid;">CS2550</td>
 				</tr>
 				<tr>
 					<td>3:00pm</td>
@@ -183,9 +183,6 @@ TRICK:  select all text in this file, 'Ctrl-A', then use 'Alt-Shift-f' to format
     to the reader of the file.
     Other such tags are: main, header, section, article, details, summary, figure
     see: https://www.w3schools.com/html/html5_semantic_elements.asp-->
-		<footer>
-			<h1>Here is my footer</h1>
-		</footer>
 	</main>
 	<!-- (Project 3) include your javascript file here -->
 	<script src="js/main.js"></script>
