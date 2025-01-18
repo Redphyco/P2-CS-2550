@@ -7,6 +7,8 @@ body{
 	in the total width of the element.  This is preferred going forward */
 	box-sizing: border-box;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-image: url("Circuit-image(google).jpg");
+	background-repeat: repeat-y;
 }
 .res-section {
 	color:black;
