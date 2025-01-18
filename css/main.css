@@ -6,6 +6,7 @@ body{
 	/*border-box style of box-sizing makes it so both width and padding of a block element are included
 	in the total width of the element.  This is preferred going forward */
 	box-sizing: border-box;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .res-section {
 	color:black;
