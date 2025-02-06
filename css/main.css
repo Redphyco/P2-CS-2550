@@ -39,6 +39,7 @@ p{
 	margin: 5% auto;
 	padding: 20px;
 	max-width: 600px;
+	max-height:min-content;
 	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 }
 
@@ -64,8 +65,9 @@ p{
 }
 
 #me-large{
-	width: 1000px;
-	height: 1000px;
+	height: 800px;
+	width: 600px;
+	object-fit: contain;
 }
 .work{
 	background-color: maroon;
